@@ -60,7 +60,7 @@ function SignIn() {
             AddEmail(e);
           }}
         />
-        {errorEmail ? <p className="errorMsg">"Invalid Email</p> : null}
+        {errorEmail ? <p className="errorMsg">Invalid Email</p> : null}
         <input
           className="inputFeild"
           type="password"
@@ -70,7 +70,7 @@ function SignIn() {
           }}
         />
         {errorPassword ? (
-          <p className="errorMsg">"Password must be at least 5 characters</p>
+          <p className="errorMsg">Password must be at least 5 characters</p>
         ) : null}
 
         <button
